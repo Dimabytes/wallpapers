@@ -1,7 +1,8 @@
 import requests 
 import random
 from lxml import html
-import glob, os
+import glob
+import os
 base_url = 'https://wallpaperscraft.ru'
 
 files = glob.glob('wallpapers/*.jpg')
